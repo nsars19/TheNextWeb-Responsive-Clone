@@ -88,6 +88,7 @@ a.subtitle {
 .article3 {
   background-size: cover;
   background-position: 50%;
+  margin: 0 4px;
 }
 .article1 {
   background-image: url("https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F11%2FUntitled-design-2020-11-06T180810.587.png&signature=17b75d9e60322cd9ffe59ff8b15cad5d");
@@ -512,15 +513,19 @@ h2 a {
   .cover > * {
     position: relative;
     height: 30vh;
-    width: 100%;
-    margin: 4px;
+    margin: 0px;
     top: 4px;
-    left: 4px;
-    right: 4px;
+    left: 0px;
+    right: 0px;
     bottom: 4px;
   }
   .article1 { margin-top: -4px; }
   
+  .article1,
+  .article2,
+  .article3 {
+    margin: 0 8px 8px 8px;
+  }
   /* Latest News */
   .latest-news { margin: 24px 0px 0px; }
   #latest-news { margin-bottom: 30px; }
